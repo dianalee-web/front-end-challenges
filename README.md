@@ -2,31 +2,30 @@
 
 This repo will provide you with challenges that will take you over essential frontend knowledge.
 
-
 ## Getting started
 
-Begin by navigating to your IDE environment. 
+Begin by navigating to your IDE environment.
 
-_*If you are running this project locally*_ then it requires that you have `nodejs`, `npm`, and another global dependency called `lr-http-server` in order to live reload. 
+_*If you are running this project locally*_ then it requires that you have `nodejs`, `npm`, and another global dependency called `lr-http-server` in order to live reload.
 
-_*If you are running this in an remote environment*_ (like c9.io), use the built in preview window to render the `index.html` of each respective lesson. You can skip the `nodejs`, `npm`, and Live Reload portions of this doc. 
+_*If you are running this in an remote environment*_ (like c9.io), use the built in preview window to render the `index.html` of each respective lesson. You can skip the `nodejs`, `npm`, and Live Reload portions of this doc.
 
 ### Node & NPM
 
-You can check if you have node installed by typing the following command in your terminal: 
+You can check if you have node installed by typing the following command in your terminal:
 
 ```
 > node -v
 v9.10.1
 ```
 
-If you have a node installed, the command should yield a version number like: `v9.10.1 ` (like above).
+If you have a node installed, the command should yield a version number like: `v9.10.1` (like above).
 
 If you do not have `nodejs` or `npm` installed, please follow the instructions on the [nodejs](https://nodejs.org/en/download/current/) website.
 
 ### Live Reload HTTP Server
 
-In addition to `nodejs` and `npm` we need to install [Live Reload HTTP Server](https://www.npmjs.com/package/lr-http-server). 
+In addition to `nodejs` and `npm` we need to install [Live Reload HTTP Server](https://www.npmjs.com/package/lr-http-server).
 
 This is an npm package that we need to install globally which will spin up a local http server for you to view your files on. In addition to that, it will watch for changes on your files and reload automatically to reflect any new changes.
 
@@ -40,7 +39,7 @@ npm install -g lr-http-server
 
 Now that you have all the dependencies, we can start working on the challenges.
 
-Navigate to the top most directory where you clone repositories. Clone the repository into your workspace by using: 
+Navigate to the top most directory where you clone repositories. Clone the repository into your workspace by using:
 
 ```
 git clone https://github.com/khoadnguyen/front-end-challenges.git
@@ -88,4 +87,4 @@ Livereload listening on port 35729
 Watching files:
 ```
 
-To stop serving the files, simple use `CTRL + C` to stop the process. 
+To stop serving the files, simple use `CTRL + C` to stop the process.
