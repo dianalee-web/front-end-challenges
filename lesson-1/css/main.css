@@ -3,10 +3,64 @@
 //  MAIN CSS FILE [ HEADER ]
 // ==========================================================================
 **/
-
+* {
+}
 /* CSS FILE COMMENTS [ INLINE ] */
 body {
-  color: red;
+  background: black;
+  color: #fff;
   font-family: Arial, Helvetica, sans-serif;
   text-align: center;
+  line-height: 1.9;
+  height: 100vh;
+}
+
+div {
+}
+img {
+  border: 10px solid tomato;
+  width: 460px;
+  height: 345px;
+}
+.container {
+  margin: 20px;
+  max-width: 1100px;
+}
+#title:hover {
+  color: tomato;
+}
+
+.tomato {
+  color: tomato;
+}
+
+.box {
+  width: 40%;
+  background: #fff;
+  color: black;
+  margin: 20px;
+}
+
+li {
+  text-align: left;
+}
+h2 {
+  text-decoration: underline;
+  text-decoration-color: tomato;
+  text-decoration-style: dashed;
+}
+section {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+i {
+  margin: 0 20px;
+  color: tomato;
+}
+
+#contact a {
+  color: tomato;
+  text-decoration: none;
 }
