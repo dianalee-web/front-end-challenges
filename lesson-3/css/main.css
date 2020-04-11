@@ -3,32 +3,61 @@
 //  MAIN CSS FILE
 // ==========================================================================
 **/
-
 body {
-  font-family: Arial, Helvetica, sans-serif;
+  text-align: center;
+  color: red;
+  font-family: 'Courier New', Courier, monospace;
+  height: 100vh;
 }
 /* WRAPPER: Reset, do not modify */
 .wrapper {
-  width: 650px;
-  height: 540px;
+  width: 450px;
+  height: 340px;
   margin: 50px auto 0;
   border: 2px solid gray;
-  display: flex;
-  justify-content: space-between;
 }
+/* each layout section is wrapped in a container */
 
 .box {
+  border: 3px solid red;
   width: 100px;
   height: 100px;
-  color: #fff;
   background: #000;
-  border: 3px solid red;
+  color: #fff;
+  /* display: flex;
+  justify-content: center;
+  align-items: center; */
+}
+/* INDIVIDUAL LAYOUT STYLINGS */
+/* LAYOUT 1 */
+#layout-1 .wrapper {
+  justify-content: space-between;
+}
+#layout-1 .wrapper {
+  display: flex;
+}
+#layout-1 .box-wrap {
+  display: flex;
+}
+/* LAYOUT 2 */
+#layout-2 .wrapper {
+  display: flex;
+  justify-content: space-between;
+  /* STAGGeR EACH BOX ON THE CROSS AXIS */
+}
+/* LAYOUT 3 */
+#layout-3 .wrapper {
+  background: #333;
   display: flex;
   justify-content: center;
   align-items: center;
 }
-.flex-container {
-  display: flex;
-}
 
-/* CSS FILE COMMENTS [ INLINE ] */
+/* LAYOUT 4 */
+.box-2 {
+  border: 3px solid red;
+  width: 100px;
+  height: 100px;
+  background: #333;
+  color: #fff;
+}
