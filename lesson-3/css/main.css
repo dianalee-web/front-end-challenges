@@ -5,9 +5,12 @@
 **/
 body {
   text-align: center;
-  color: red;
+  color: #000;
   font-family: 'Courier New', Courier, monospace;
   height: 100vh;
+}
+h4 {
+  color: dodgerblue;
 }
 /* WRAPPER: Reset, do not modify */
 .wrapper {
@@ -17,9 +20,12 @@ body {
   border: 2px solid gray;
 }
 /* each layout section is wrapped in a container */
+.container {
+  margin-top: 100px;
+}
 
 .box {
-  border: 3px solid red;
+  border: 3px solid coral;
   width: 100px;
   height: 100px;
   background: #000;
@@ -28,13 +34,22 @@ body {
   justify-content: center;
   align-items: center; */
 }
+img {
+  width: 100%;
+  height: auto;
+}
+.img-responsive {
+  width: 200px;
+  height: 190px;
+  display: inline-block;
+}
+
 /* INDIVIDUAL LAYOUT STYLINGS */
 /* LAYOUT 1 */
-#layout-1 .wrapper {
-  justify-content: space-between;
-}
+
 #layout-1 .wrapper {
   display: flex;
+  justify-content: space-between;
 }
 #layout-1 .box-wrap {
   display: flex;
@@ -47,17 +62,63 @@ body {
 }
 /* LAYOUT 3 */
 #layout-3 .wrapper {
-  background: #333;
   display: flex;
   justify-content: center;
-  align-items: center;
+  padding-top: 50px;
 }
-
+#layout-3 .outer-box {
+  width: 200px;
+  height: 200px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-color: gray;
+  flex-direction: column;
+}
+#layout-3 .inner-box {
+}
 /* LAYOUT 4 */
+#layout-4 .box {
+  position: absolute;
+}
 .box-2 {
   border: 3px solid red;
   width: 100px;
   height: 100px;
   background: #333;
   color: #fff;
+  position: relative;
+  top: 30px;
+  left: 30px;
+}
+
+/* LAYOUT 5 */
+#layout-5 .wrapper {
+}
+
+#layout-5 .middle-box {
+  position: relative;
+  top: 120px;
+}
+#layout-5 .left-box {
+  position: relative;
+  top: 230px;
+}
+/* LAYOUT 6 */
+#layout-6 .wrapper {
+  display: flex;
+  justify-content: flex-end;
+  align-items: flex-end;
+}
+#layout-6 .big-box {
+  width: 400px;
+  height: 300px;
+  background: gray;
+  display: flex;
+  justify-content: space-between;
+  position: absolute;
+}
+#layout-6 .left-box {
+  position: relative;
+  top: 200px;
 }
