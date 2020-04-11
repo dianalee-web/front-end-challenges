@@ -7,6 +7,7 @@ As a front end developer, you will often be handed comps from a designer that yo
 In this exercise, we'll take a series of simple comps and recreate each of them. Within the "wrapper" `<div>` will make the appropriate number of `<div>` tags with the div numbers indicated in the comps, give them a `<height>`, `<width>`, and `background-color` and then make them match the layout in the comp. Here's an example of what this might look like in your HTML and CSS:
 
 #### Your HTML:
+
 ```
 <div class="div1">
   div1
@@ -35,7 +36,7 @@ div {
 }
 ```
 
-- Use the `index.html` page as a template and create 15 additional pages based on that page. Label them `layout-1.html` and so forth. 
+- Use the `index.html` page as a template and create 15 additional pages based on that page. Label them `layout-1.html` and so forth.
 - On the `index.html` page, add an `<h1>` and input "Table of Contents".
 - Look through the `/layouts` directory and starting from `layout-1.png`, go through the exercises in numerical order and position the divs based on the image.
 - Use either an in document or external stylesheet.
@@ -49,9 +50,9 @@ div {
 
 ### Key Concepts
 
-- Given a layout comp, replicate it using HTML & CSS. 
+- Given a layout comp, replicate it using HTML & CSS.
 
-## Links 
+## Links
 
 - [CSS Reference](https://developer.mozilla.org/en-US/docs/Web/CSS/Reference)
 - [Box Model](https://developer.mozilla.org/en-US/docs/Learn/CSS/Introduction_to_CSS/Box_modelm)

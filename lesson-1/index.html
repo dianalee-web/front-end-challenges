@@ -17,17 +17,27 @@
 
   <body>
     <div class="container">
-      <h1 id="title">Diana Lee Telahun</h1>
-      <p>
-        <img src="img/IMG_7306.jpg" alt="" />
-      </p>
-      <p>
-        Hello, my name is <span class="tomato">Diana</span> &amp I'm an aspiring
-        full-stack web developer.I love my
-        <span class="tomato">InstantPot</span>,
-        <span class="tomato">Jiu-Jitsu </span>, and
-        <span class="tomato">sewing</span>.
-      </p>
+      <header>
+        <h1 id="title">Diana Lee Telahun</h1>
+
+        <p>
+          <img src="img/IMG_7306.jpg" alt="" />
+        </p>
+        <p>
+          Hello, my name is
+          <span class="tomato decorative-text">Diana</span> and I'm an aspiring
+          full-stack web developer. I love my
+          <span class="tomato decorative-text">kids</span> and practicing
+          <span class="tomato decorative-text">Jiu-Jitsu</span>.
+          <br />
+          When I'm not studying, you can find me
+          <span class="decorative-text tomato">sewing</span> or
+          <span class="decorative-text tomato">cooking</span> something
+          delicious in my Instant Pot.
+        </p>
+      </header>
+
+      <!--  -->
       <section class="lists">
         <div class="box">
           <h2>Strengths</h2>
@@ -47,30 +57,55 @@
             <li>Javascript</li>
           </ol>
         </div>
+        <div class="box" id="fun-fact">
+          <h2>Fun Fact</h2>
+
+          <button class="button" id="funFactButton">
+            Click Me!
+          </button>
+        </div>
       </section>
-      <p>
-        <span class="tomato">Fun Fact:</span>
-        Lorem ipsum dolor sit, amet consectetur adipisicing elit. Mollitia
-        nostrum laboriosam vitae! Repellendus, ex laborum.
-      </p>
+      <!-- Fun Fact Button -->
+
       <!-- Contact Section -->
       <div id="contact">
         <h2>Contact</h2>
 
-        <a href=""><i class="fab fa-instagram"></i></a>
+        <div class="content-wrap">
+          <address>
+            12345 Sunny Lane <br />
+            San Diego, CA, 92119 <br />
 
-        <a href=""><i class="fab fa-linkedin"></i></a>
+            <span class="blue-text">(</span> 619
+            <span class="blue-text">)</span> &nbsp;929
+            <span class="blue-text">-</span> 9696 <br />
+            <br />
 
-        <a href=""><i class="fab fa-github-square"></i></a>
-        <address>
-          12345 Sunny Lane <br />
-          San Diego, CA, 92119 <br />
+            <a
+              href="mailto:telahun.diana@gmail.com"
+              id="my-email"
+              target="_blank"
+            >
+              <i class="far fa-envelope fa-2x"></i
+            ></a>
+            <a href="https://www.github.com" target="_blank">
+              <i class="fab fa-github-square fa-2x"></i
+            ></a>
+            <a href="https://www.instagram.com"
+              ><i class="fab fa-instagram-square fa-2x" target="_blank"></i
+            ></a>
+          </address>
+        </div>
 
-          619-929-9696
-        </address>
-        <a href="mailto:telahun.diana@gmail.com" target="_blank">Email me!</a>
+        <footer class="content-wrap">
+          <p>
+            Copyright &copy 2020 &nbsp &nbsp|| &nbsp &nbsp
+            <span class="decorative-text">DesignsByDiana</span>
+          </p>
+        </footer>
       </div>
     </div>
+
     <!-- end full body container  -->
 
     <!--// ENDS: ELEMENT TAG -->

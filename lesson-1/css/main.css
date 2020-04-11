@@ -1,54 +1,82 @@
-/**
-// ==========================================================================
-//  MAIN CSS FILE [ HEADER ]
-// ==========================================================================
-**/
+@import url('https://fonts.googleapis.com/css2?family=Lato&family=Roboto&family=Sacramento&display=swap');
+/* GENERAL STYLES */
+
 * {
+  box-sizing: border-box;
 }
-/* CSS FILE COMMENTS [ INLINE ] */
-body {
-  background: black;
-  color: #fff;
+
+body{
   font-family: Arial, Helvetica, sans-serif;
+
+  display: flex;
+ }
+ .container  {
+   
+ }
+.wrapper {
+ background-color: lightcyan;
+ margin: 20px;
+ padding: 10px;
+ display: flex;
+ /* background:#fdfefe */
+
+
+ 
+}
+
+.main {
+ background-color: #fbfef2
+ padding: 15px;
+ flex-basis: 75%;
+
+}
+.sidebar {
+ background-color: #ecf0f6;
+ border: 2px dotted #000;
+ padding: 15px;
+ flex-basis: 25%;
+
+}
+
+
+html {
+  font-size: 16px;
+}
+body {
+  background-image: radial-gradient(circle, #00d4ff 0%, tomato 100%);
+
+  color: #fff;
+  font-family: 'Lato', sans-serif;
   text-align: center;
   line-height: 1.9;
-  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 40px;
 }
-
-div {
+p {
+  font-size: 1.5rem;
+  width: 80%;
+}
+h2 {
+  text-decoration: none;
+  font-weight: bolder;
+  text-transform: uppercase;
+  text-align: center;
+}
+nav {
+  background: tomato;
 }
 img {
-  border: 10px solid tomato;
-  width: 460px;
-  height: 345px;
+  border: 8px solid #fff;
+  border-radius: 4px;
+  width: 100%;
+  height: auto;
 }
-.container {
-  margin: 20px;
-  max-width: 1100px;
-}
-#title:hover {
-  color: tomato;
-}
-
-.tomato {
-  color: tomato;
-}
-
-.box {
-  width: 40%;
-  background: #fff;
-  color: black;
-  margin: 20px;
-}
-
 li {
   text-align: left;
 }
-h2 {
-  text-decoration: underline;
-  text-decoration-color: tomato;
-  text-decoration-style: dashed;
-}
+
 section {
   display: flex;
   justify-content: center;
@@ -56,11 +84,120 @@ section {
 }
 
 i {
-  margin: 0 20px;
-  color: tomato;
+  margin: 10px;
+}
+i:hover {
+  color: white;
 }
 
-#contact a {
-  color: tomato;
+/* UTILITY CLASSES */
+.container {
+  margin: 20px;
+  max-width: 1100px;
+}
+.box {
+  background: #fff;
+  color: black;
+  margin: 20px;
+  border: 2px solid tomato;
+  border-radius: 4px;
+  width: 300px;
+  height: 300px;
+}
+.button {
+  background-color: tomato;
+  color: #fff;
+  border-radius: 4px;
+  padding: 15px 30px;
+  text-align: center;
   text-decoration: none;
+  display: inline-block;
+  font-size: 1.2rem;
+  transition: all 1.5s ease-in-out;
+  margin: 30px;
+  cursor: pointer;
+}
+
+.button:hover {
+  color: tomato;
+  background-color: #fff;
+  border: 2px solid tomato;
+}
+
+/* CUSTOM CSS */
+.blue-text {
+  color: #00d4ff;
+}
+.tomato {
+  color: tomato;
+}
+.decorative-text {
+  font-family: 'Sacramento', cursive;
+  font-size: 2.3rem;
+  font-weight: bolder;
+}
+
+/* Header / Title section */
+header {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+#title {
+  font-family: 'Sacramento', cursive;
+  font-size: 3rem;
+  padding-top: 30px;
+}
+/* Contact Section */
+
+#contact address {
+  font-size: 1.5rem;
+  color: #fff;
+}
+
+#contact h2 {
+  margin: 50px 0;
+}
+#contact a {
+  color: #00d4ff;
+  font-size: 1.5rem;
+  text-decoration: none;
+  padding: 0 20px;
+}
+
+#contact .box {
+  max-height: 300px;
+}
+
+.box-1 {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+}
+
+.box-2 {
+  display: none;
+}
+
+#contact .content-wrap {
+  display: flex;
+  justify-content: center;
+}
+
+footer {
+  margin-top: 50px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+#contact .box {
+  background: none;
+  border: none;
+}
+.social-icon i {
+  color: #00d4ff;
+}
+.social-icon i:hover {
 }
