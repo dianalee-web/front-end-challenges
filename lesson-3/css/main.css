@@ -7,8 +7,9 @@ body {
   text-align: center;
   color: #000;
   font-family: 'Courier New', Courier, monospace;
-  height: 100vh;
+  height: 50vh;
 }
+
 h4 {
   color: dodgerblue;
 }
@@ -25,7 +26,6 @@ h4 {
 }
 
 .box {
-  border: 3px solid coral;
   width: 100px;
   height: 100px;
   background: #000;
@@ -82,7 +82,6 @@ img {
   position: absolute;
 }
 .box-2 {
-  border: 3px solid red;
   width: 100px;
   height: 100px;
   background: #333;
@@ -110,7 +109,7 @@ img {
   justify-content: flex-end;
   align-items: flex-end;
 }
-#layout-6 .big-box {
+.big-box {
   width: 400px;
   height: 300px;
   background: gray;
@@ -121,4 +120,146 @@ img {
 #layout-6 .left-box {
   position: relative;
   top: 200px;
+}
+
+/* LAYOUT 7 */
+#layout-7 .big-box {
+  width: 200px;
+  height: 200px;
+  display: flex;
+  justify-content: flex-end;
+  align-items: flex-end;
+}
+
+/* LAYOUT 8 */
+
+#layout-8 .big-box {
+  width: 200px;
+  height: 200px;
+  display: flex;
+  justify-content: flex-end;
+}
+
+/* LAYOUT 9 */
+#layout-9 .big-box {
+  width: 150px;
+  height: 300px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+/* figure {
+  width: 400px;
+  height: 100px;
+}
+
+iframe {
+  width: 100%;
+  height: auto;
+} */
+
+/* LAYOUT 10 */
+#layout-10 .wrapper {
+  display: flex;
+  justify-content: center;
+  padding: 50px;
+}
+#layout-10 .big-box {
+  height: 200px;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
+
+/* LAYOUT 11 */
+#layout-11 .bigger-box {
+  width: 200px;
+  height: 300px;
+  background-color: #444;
+  display: flex;
+  justify-content: flex-end;
+  align-items: flex-end;
+}
+#layout-11 .small-box {
+  width: 50px;
+  background: white;
+  color: #000;
+  height: 50px;
+}
+#layout-11 .box {
+  display: flex;
+  justify-content: flex-end;
+  align-items: flex-end;
+}
+/* LAYOUT 12 */
+
+#layout-12 .big-box {
+  width: 120px;
+  background-attachment: rgb(44, 44, 44);
+  position: absolute;
+}
+
+#layout-12 .mid-box {
+  background: black;
+  color: #fff;
+  width: 120px;
+  height: 150px;
+  z-index: 1;
+  position: relative;
+  top: 150px;
+  left: 80px;
+}
+
+#layout-12 .little-box {
+  background: #eee;
+  width: 100px;
+  height: 100px;
+  position: relative;
+  top: 230px;
+  left: -299px;
+  z-index: 2;
+}
+
+/* LAYOUT 13 */
+#layout-13 .box {
+  position: absolute;
+}
+#layout-13 .gray-box {
+  width: 100px;
+  height: 100px;
+  background: #444;
+  color: #eee;
+  position: relative;
+  top: 50px;
+  left: 50px;
+}
+
+#layout-13 .box-3 {
+  position: relative;
+  top: 100px;
+  right: 40px;
+  width: 100px;
+  height: 100px;
+  background: #000;
+  color: #fff;
+}
+#layout-13 .box-4 {
+  position: relative;
+  background-color: #444;
+  width: 100px;
+  height: 100px;
+  top: 150px;
+  left: -130px;
+  color: #fff;
+}
+
+#layout-13 .box-5 {
+  position: relative;
+  background: black;
+  width: 100px;
+  height: 100px;
+  color: #fff;
+  top: 200px;
+  left: -210px;
 }
