@@ -60,6 +60,7 @@ img {
   justify-content: space-between;
   /* STAGGeR EACH BOX ON THE CROSS AXIS */
 }
+
 /* LAYOUT 3 */
 #layout-3 .wrapper {
   display: flex;
