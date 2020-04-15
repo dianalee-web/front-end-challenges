@@ -6,13 +6,23 @@
     <meta name="keywords" content="" />
     <meta name="description" content="" />
     <meta name="viewport" content="width=device-width, initial-scale=1" />
+    
+    
+
     <title>Challenge #3</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.13.0/css/all.min.css">
     <link href="css/main.css" rel="stylesheet" />
     <script>
       // JAVASCRIPT
     </script>
   </head>
   <body>
+    <header class="container">
+
+      <h1>SoftStack Factory 
+        Front-End Challenges: Lesson 3</h1>
+        <a href="https://github.com/SoftStackFactory/front-end-challenges/tree/master/lesson-3"  class="btn" target ="_blank">README</a>
+    </header>
     <!-- LAYOUT -1 -->
     <div class="container" id="layout-1">
       <h1>Layout 1</h1>
@@ -29,18 +39,23 @@
         </div>
        
       </div>
-      <h5>comments: <br>
+      <div class="comments">
+      <h5>comments:  </h5>
        <ul>
          <li>
-          div 1 is it's own div, next div has div 2 and div 3 nested inside
+          div 1 is it's own div, next <span class="hightlight">div</span> has div 2 and div 3 nested inside
          </li>
          display: flex; </ul>
          <li>
            justify-content: space-_________ (to split up the two divs at opposite ends horizontally)
          </li>
        </ul>
-      </h5>
+     
+    </div>
 
+  
+
+      <!-- LAYOUT 2 -->
       <div class="container" id="layout-2">
         <h1>Layout 2</h1>
         <div class="img-responsive">
@@ -54,7 +69,20 @@
           <div class="box second-box">div 2</div>
           <div class="box third-box">div 3</div>
         </div>
+        
       </div>
+      <div class="comments">
+        <h5>comments: 
+        </h5>
+        <ul>
+          <li>1</li>
+          <li>2</li>
+        </ul>
+      </div>
+    
+
+
+      <!-- Layout 3 -->
       <div class="container" id="layout-3">
         <h1>Layout 3</h1>
         <div class="img-responsive">
@@ -62,6 +90,7 @@
           <img src="layouts/layout-3.png" alt="" />
         </div>
         <h4>answer:</h4>
+        
         <div class="wrapper">
           <div class="box outer-box">
             div 1
@@ -69,9 +98,25 @@
               div 2
             </div>
           </div>
+          
         </div>
+     
       </div>
+      <div class="comments">
+        <h5>comments: </h5>
+          <ul>
+            <li>1 larger div that has 1 smaller div nested in it</li>
+            <li>apply  { display: flex } to 2 separate parent-container (hint: div w/ the wrapper class is one of the divs...)</li>
+            <li><i class="fas fa-music"></i>...and then you center it all around! <i class="fas fa-music"></i> (justify-content, align-items)</li>
+          </ul> 
+      </div>
+     
 
+    
+    
+  
+   
+<!-- LAYOUT 3 -->
       <div class="container" id="layout-4">
         <h1>Layout 4</h1>
         <div class="img-responsive">
@@ -84,6 +129,15 @@
           <div class="box-2">div 2</div>
         </div>
       </div>
+      <div class="comments">
+        <h5>comments: </h5>
+          <ul>
+            <li>one div will be {position: relative} to the other</li>
+            <li>assign div 2 to another class to change its background color</li>
+          </ul> 
+      </div>
+
+      <!-- LAYOUT 5 -->
 
       <div class="container" id="layout-5">
         <h1>Layout 5</h1>
@@ -98,6 +152,18 @@
           <div class="box right-box">3</div>
         </div>
       </div>
+      <div class="comments">
+        <h5>comments: </h5>
+          <ul>
+            <li>one div will be {position: relative} to the other</li>
+            <li>assign div 2 to another class to change its background color</li>
+          </ul> 
+      </div>
+
+
+      <hr>  
+      <p>comments are coming...</p>
+      <!-- layout 6 -->
 
       <div class="container" id="layout-6">
         <h1>Layout 6</h1>

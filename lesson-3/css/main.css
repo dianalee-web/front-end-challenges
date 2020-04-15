@@ -7,11 +7,16 @@ body {
   text-align: center;
   color: #000;
   font-family: 'Courier New', Courier, monospace;
-  height: 50vh;
+  height: 100vh;
+  line-height: 1.5;
 }
 
 h4 {
   color: dodgerblue;
+}
+h5 {
+  text-align: center;
+  font-size: 1.1rem;
 }
 /* WRAPPER: Reset, do not modify */
 .wrapper {
@@ -20,10 +25,12 @@ h4 {
   margin: 50px auto 0;
   border: 2px solid gray;
 }
-/* each layout section is wrapped in a container */
-.container {
-  margin-top: 100px;
+
+.comments {
+  display: inline-block;
+  margin-bottom: 80px;
 }
+/* each layout section is wrapped in a container */
 
 .box {
   width: 100px;
@@ -33,6 +40,9 @@ h4 {
   /* display: flex;
   justify-content: center;
   align-items: center; */
+}
+.hightlight {
+  color: red;
 }
 img {
   width: 100%;
@@ -44,15 +54,31 @@ img {
   display: inline-block;
 }
 
+.side {
+}
 /* INDIVIDUAL LAYOUT STYLINGS */
+/* Header */
+
+header a {
+  text-decoration: none;
+}
+header .btn {
+  background: dodgerblue;
+  color: white;
+  padding: 4px 7px;
+  border-radius: 4px;
+  display: inline-block;
+}
 /* LAYOUT 1 */
 
 #layout-1 .wrapper {
   display: flex;
   justify-content: space-between;
+  align-items: flex-start;
 }
 #layout-1 .box-wrap {
   display: flex;
+  border: 2px solid red;
 }
 /* LAYOUT 2 */
 #layout-2 .wrapper {
