@@ -60,7 +60,16 @@ img {
   justify-content: space-between;
   /* STAGGeR EACH BOX ON THE CROSS AXIS */
 }
-
+#layout-2 .first-box {
+}
+#layout-2 .second-box {
+  position: relative;
+  top: 100px;
+}
+#layout-2 .third-box {
+  position: relative;
+  top: 200px;
+}
 /* LAYOUT 3 */
 #layout-3 .wrapper {
   display: flex;
@@ -184,7 +193,7 @@ iframe {
 }
 #layout-11 .small-box {
   width: 50px;
-  background: white;
+  background: lightgray;
   color: #000;
   height: 50px;
 }
@@ -192,6 +201,7 @@ iframe {
   display: flex;
   justify-content: flex-end;
   align-items: flex-end;
+  padding: 5px;
 }
 /* LAYOUT 12 */
 
@@ -263,4 +273,42 @@ iframe {
   color: #fff;
   top: 200px;
   left: -210px;
+}
+
+/* layout 14 */
+#layout-14 .wrapper {
+  display: flex;
+  justify-content: flex-end;
+}
+#layout-14 .big-box {
+  width: 200px;
+  height: 200px;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-end;
+}
+/* layout 15 */
+
+#layout-15 .wrapper {
+}
+#layout-15 .box-big {
+  width: 150px;
+  height: 150px;
+  background: gray;
+}
+
+#layout-15 .box-3 {
+  align-content: flex-end;
+}
+
+#layout-15 .box-wrapper {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+
+#layout-15 .box-wrapper-2 {
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-end;
 }
