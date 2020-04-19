@@ -1,5 +1,5 @@
 :root {
-  --primary-text-color: rgb(239, 239, 239);
+  --primary-text-color: #777;
   --secondary-text-color: rgb(180, 180, 180);
   --accent-text-color: rgb(64, 189, 189);
   --white: #fff;
@@ -15,10 +15,11 @@ html {
   font-size: 10px;
 }
 body {
-  background-color: var(--primary-text-color);
-  color: var(--secondary-text-color);
+  background-color: #eee;
+  color: var(--primary-text-color);
   height: 100vh;
   font-family: 'Raleway', sans-serif;
+  letter-spacing: 1px;
 }
 
 .container {
@@ -38,6 +39,10 @@ body {
   height: 90vh;
 }
 .img-container {
+}
+
+.highlight {
+  color: var(--accent-text-color);
 }
 
 img {
@@ -60,8 +65,9 @@ form {
 }
 input {
   width: 50%;
-  margin: 10px 0;
+  margin: 20px 0;
   padding: 5px;
+  font-size: 1.4rem;
 }
 button {
   width: 60%;
@@ -71,7 +77,17 @@ button {
   padding: 5px 7px;
   border-radius: 2px;
 }
-/* TEXT-container */
+a {
+  text-decoration: none;
+  padding-top: 20px;
+  font-size: 1.3rem;
+  color: var(--primary-text-color);
+}
 
+.sign-up {
+  position: relative;
+  top: 280px;
+  font-weight: 700;
+}
 @media only screen and (max-width: 768px) {
 }
