@@ -21,7 +21,10 @@ body {
   font-family: 'Raleway', sans-serif;
   letter-spacing: 1px;
 }
-
+p {
+  padding-top: 20px;
+  color: var(--accent-text-color);
+}
 .container {
   height: 90vh;
   width: auto;
@@ -71,11 +74,17 @@ input {
 }
 button {
   width: 60%;
+
   border: none;
   background-color: var(--accent-text-color);
   color: #fff;
-  padding: 5px 7px;
+  padding: 10px 7px;
   border-radius: 2px;
+}
+button:hover {
+  color: var(--accent-text-color);
+  background: #fff;
+  border: 1px solid var(--accent-text-color);
 }
 a {
   text-decoration: none;
@@ -86,8 +95,12 @@ a {
 
 .sign-up {
   position: relative;
-  top: 280px;
+  top: 250px;
   font-weight: 700;
+}
+
+.hidden {
+  display: none;
 }
 @media only screen and (max-width: 768px) {
 }
