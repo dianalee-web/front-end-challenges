@@ -1,9 +1,13 @@
+var body = document.querySelector('body');
 
-/*
-* JAVASCRIPT FUNCTION
-* @parameter: This does ____
-*
-* Notes: Lorem ipsum justo vel
-* */
+var isBlue = false;
 
-console.log("This outputs into the console.");
+setInterval(function () {
+  if (isBlue) {
+    body.style.background = 'green';
+  } else {
+    body.style.background = 'red';
+  }
+
+  isBlue = !isBlue;
+}, 1000);
